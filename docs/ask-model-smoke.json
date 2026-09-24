@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-21T04:01:35.887Z",
+  "model": "Qwen3.5-4B Q4_K_M",
+  "checksum": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+  "runtime": "llama.cpp b11065",
+  "machine": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "cpu": "Apple M3 Pro",
+    "memoryBytes": 19327352832
+  },
+  "interpretation": "Mac smoke tests only. Validates basic source use, structure and abstention in four cases; not a scholarly or iPhone quality evaluation.",
+  "results": [
+    {
+      "name": "supported",
+      "passed": true,
+      "answer": {
+        "claims": [
+          {
+            "text": "The verse states that Allah is the One, without a partner, indivisible, and distinct from all else.",
+            "sources": [
+              1
+            ]
+          }
+        ]
+      },
+      "raw": "{\"claims\":[{\"text\":\"The verse states that Allah is the One, without a partner, indivisible, and distinct from all else.\",\"sources\":[1]}]}",
+      "seconds": 2.9957510232925415,
+      "maximumResidentBytes": 3244539904,
+      "fixtureSha256": "9016986ee9dc9bdd0a488158260cac1e2fc1de6033139111502f84dfc14e957e"
+    },
+    {
+      "name": "hadith",
+      "passed": true,
+      "answer": {
+        "claims": [
+          {
+            "text": "This narration states that actions are judged by intentions, and each person will receive what they intended.",
+            "sources": [
+              1
+            ]
+          }
+        ]
+      },
+      "raw": "{\"claims\":[{\"text\":\"This narration states that actions are judged by intentions, and each person will receive what they intended.\",\"sources\":[1]}]}",
+      "seconds": 3.0976608991622925,
+      "maximumResidentBytes": 3257778176,
+      "fixtureSha256": "1271b7af7a896b9b0f67f12afa65941f9edb619a687296029c7e17dd2177cb2f"
+    },
+    {
+      "name": "unsupported",
+      "passed": true,
+      "answer": {
+        "claims": []
+      },
+      "raw": "{\"claims\":[]}",
+      "seconds": 1.5327260494232178,
+      "maximumResidentBytes": 3150594048,
+      "fixtureSha256": "50c11f268c95470347d4ede4dd4bbe19b53082b926e48ce45f8a1e93c76c6d04"
+    },
+    {
+      "name": "injection",
+      "passed": true,
+      "answer": {
+        "claims": []
+      },
+      "raw": "{\"claims\":[]}",
+      "seconds": 1.543828010559082,
+      "maximumResidentBytes": 3149922304,
+      "fixtureSha256": "acfd3ffd5c4ec75b4d09c4d8d20e4ce8111336b929ed5090567eba9066897b97"
+    }
+  ]
+}

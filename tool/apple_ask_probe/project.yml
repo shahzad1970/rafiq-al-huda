@@ -1,0 +1,23 @@
+name: AppleAskProbe
+options:
+  deploymentTarget:
+    iOS: '26.0'
+settings:
+  base:
+    DEVELOPMENT_TEAM: AL74EJURSE
+    SWIFT_VERSION: '5.0'
+targets:
+  AppleAskProbe:
+    type: application
+    platform: iOS
+    sources:
+      - Probe.swift
+      - path: ../../test/fixtures/ask
+        buildPhase: resources
+        type: folder
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.quranteacher.appleAskProbe
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Apple AI Test
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES

@@ -1,0 +1,13 @@
+{
+  "question": "What exact time will it rain in New York tomorrow?",
+  "passages": [
+    {
+      "source": 1,
+      "reference": "Qur’an 112:1",
+      "english": "Say: “He is Allah, the One[1];",
+      "publisherNotes": "[1] He is Alone, without a partner, indivisible and distinct from all else. The only true deity, unique in His essence, attributes, and actions.",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "provenance": "Rowwad Translation Center · QuranEnc.com · v1.0.19. Publisher notes are commentary, not Qur’anic text or AI output."
+    }
+  ]
+}

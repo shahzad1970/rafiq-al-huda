@@ -1,0 +1,35 @@
+name: AlifProbe
+options:
+  deploymentTarget:
+    iOS: '18.0'
+settings:
+  base:
+    DEVELOPMENT_TEAM: AL74EJURSE
+    SWIFT_VERSION: '5.0'
+targets:
+  AlifProbe:
+    type: application
+    platform: iOS
+    sources:
+      - Probe.swift
+      - path: ../../test/fixtures/ask
+        buildPhase: resources
+        type: folder
+      - path: /Users/shahzadsarwar/Library/Caches/quran-teacher-alif/alif-islamic-v4-base.task
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.quranteacher.alifProbe
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Alif Test
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        OTHER_LDFLAGS: '$(inherited) -force_load /Users/shahzadsarwar/Library/Caches/quran-teacher-alif/frameworks/genai_libraries/libMediaPipeTasksGenAIC_device.a -lc++'
+    dependencies:
+      - framework: /Users/shahzadsarwar/Library/Caches/quran-teacher-alif/frameworks/MediaPipeTasksGenAI.xcframework
+        embed: false
+      - framework: /Users/shahzadsarwar/Library/Caches/quran-teacher-alif/frameworks/MediaPipeTasksGenAIC.xcframework
+        embed: false
+      - sdk: Accelerate.framework
+      - sdk: CoreVideo.framework
+      - sdk: Metal.framework
+      - sdk: OpenGLES.framework

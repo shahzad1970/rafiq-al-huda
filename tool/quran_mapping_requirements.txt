@@ -1,0 +1,1 @@
+quran-transcript @ git+https://github.com/obadx/quran-transcript.git@42b9338896e758c69f7deeb10758891b76ab7177

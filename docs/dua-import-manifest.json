@@ -1,0 +1,123 @@
+{
+  "commit": "f42f895f914319a844c3e3c2279483cae060ea19",
+  "checksums": {
+    "daily-dua": "ecd0daf95b903df345347855c053a7eea94f70ad5882ac09e2af93d3a32b142c",
+    "morning-dhikr": "67af9c7660426394ebfa31c62f32ab11dd64248732963223a847e0e8509dd06b",
+    "evening-dhikr": "557a189c2133215e6a947eae1b81b2601eca634b48c5d689cb7803f29fee3d7d",
+    "dhikr-after-salah": "2a1b54c699a9b12771301abea169ec34e06c62773bc687b611f1c376f3ae95e5",
+    "selected-dua": "23a3ca5cc31102dfb42a1641863d290b200eb3076b000f2ef8f10d7819b0659c"
+  },
+  "imported": 59,
+  "skipped": [
+    {
+      "section": "daily-dua",
+      "index": 10,
+      "reason": "Combined formula or context needs review"
+    },
+    {
+      "section": "daily-dua",
+      "index": 12,
+      "reason": "Combined formula or context needs review"
+    },
+    {
+      "section": "daily-dua",
+      "index": 13,
+      "reason": "Combined formula or context needs review"
+    },
+    {
+      "section": "daily-dua",
+      "index": 21,
+      "reason": "Combined formula or context needs review"
+    },
+    {
+      "section": "daily-dua",
+      "index": 37,
+      "reason": "Already in Quran catalog"
+    },
+    {
+      "section": "morning-dhikr",
+      "index": 0,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "morning-dhikr",
+      "index": 1,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "morning-dhikr",
+      "index": 2,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "morning-dhikr",
+      "index": 3,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "evening-dhikr",
+      "index": 0,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "evening-dhikr",
+      "index": 1,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "evening-dhikr",
+      "index": 2,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "evening-dhikr",
+      "index": 3,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "dhikr-after-salah",
+      "index": 4,
+      "reason": "Missing reference"
+    },
+    {
+      "section": "dhikr-after-salah",
+      "index": 5,
+      "reason": "Missing reference"
+    },
+    {
+      "section": "dhikr-after-salah",
+      "index": 6,
+      "reason": "Missing reference"
+    },
+    {
+      "section": "dhikr-after-salah",
+      "index": 8,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "dhikr-after-salah",
+      "index": 9,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "dhikr-after-salah",
+      "index": 10,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "dhikr-after-salah",
+      "index": 11,
+      "reason": "Quran recitation; available in Quran module"
+    },
+    {
+      "section": "selected-dua",
+      "index": 0,
+      "reason": "Already in Quran catalog"
+    },
+    {
+      "section": "selected-dua",
+      "index": 3,
+      "reason": "Already in Quran catalog"
+    }
+  ]
+}
